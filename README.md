@@ -54,3 +54,20 @@ The application will be available at:
 - Web Interface: `http://localhost:8000`
 - API Documentation: `http://localhost:8000/docs`
 
+## Development
+
+Install dev dependencies:
+```bash
+uv sync --group dev
+```
+
+Format code:
+```bash
+make format
+```
+
+Check formatting without modifying files (CI mode):
+```bash
+make check
+```
+
