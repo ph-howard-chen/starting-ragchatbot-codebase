@@ -20,6 +20,11 @@ backend/chroma_db/
 # Uploads
 uploads/
 
+# Claude Code
+.claude/CLAUDE.local.md
+.playwright-mcp/
+.trees/
+
 # IDE
 .vscode/
 .idea/
